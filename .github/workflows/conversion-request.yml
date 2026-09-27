@@ -1,5 +1,6 @@
 name: Conversion Request
 on:
+  workflow_dispatch:
   issues:
     types:
       - labeled
